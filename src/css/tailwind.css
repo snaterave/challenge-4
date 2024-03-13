@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*.table-td{
+    @apply px-6 py-4;
+}*/
+table{
+    tr{
+        td{
+            @apply px-6 py-4;
+        }
+    }
+    td:nth-child(2){
+        @apply text-primary-nutmeg font-bold;
+    }
+}
+
+.primary-title{
+    @apply text-primary-nutmeg text-2xl font-bold font-primary pb-5;
+}
+
+.second-title{
+    @apply font-secundary text-paragraph;
+}
+
+ 
